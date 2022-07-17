@@ -203,28 +203,36 @@ body {
 /* Project */
 .sec-project {
   max-width: 750px;
-  margin: auto;
+  display: grid;
+  place-items: center;
   padding-top: 60px;
 }
 
 .sec-project h1 {
   margin-bottom: 30px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .card {
   max-height: 362px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project-card {
+  width: 362px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
   margin-bottom: 20px;
 }
-.project-card:first-child {
-  margin-right: 30px;
-}
+
 .project-info {
+  width: 362px;
   margin-top: 1px;
   background-color: #d9d9d9;
   padding: 10px;
@@ -269,7 +277,7 @@ a {
   color: #19191b;
 }
 
-.sec-project p {
+.github-profile {
   text-align: center;
   font-size: 16px;
   line-height: 21px;
@@ -277,14 +285,14 @@ a {
   user-select: none;
   cursor: pointer;
 }
-.sec-project p:hover {
+.github-profile:hover {
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
 }
-.sec-project p:active {
+.github-profile:active {
   transform: translateY(1px);
   -webkit-transform: translateY(1px);
   -moz-transform: translateY(1px);
@@ -295,6 +303,12 @@ a {
 @media only screen and (max-width: 630px) {
   .header {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-img img {
+    display: grid;
+    place-items: center;
   }
   .statistics {
     max-width: 380px;
