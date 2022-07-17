@@ -336,6 +336,6 @@ a {
   /* Project */
   .card {
     grid-template-columns: 1fr;
-    place-items: center;
+    margin: auto;
   }
 }
