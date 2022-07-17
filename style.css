@@ -83,7 +83,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  /* margin: auto; */
   padding: 50px 0;
 }
 
@@ -307,11 +307,17 @@ a {
     justify-content: center;
   }
   .header-img img {
+    margin: 0;
     display: grid;
     place-items: center;
   }
   .statistics {
     max-width: 380px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
   .stat {
     font-size: 14px;
@@ -322,6 +328,9 @@ a {
   } */
   .button-container {
     max-width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
   }
   .btn {
@@ -332,7 +341,7 @@ a {
 
   /* About section */
   .sec-about {
-    padding: 10px 10px;
+    padding: 10px 30px;
     flex-direction: column;
   }
 
