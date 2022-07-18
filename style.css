@@ -332,6 +332,7 @@ a {
   .stat {
     font-size: 14px;
     margin-left: 27px;
+    line-height: 100%;
   }
   /* .stat:last-child {
     margin: 0;
