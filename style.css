@@ -303,7 +303,7 @@ a {
 
 @media only screen and (max-width: 630px) {
   body {
-    padding: 0 5%;
+    /* padding: 0 5%; */
   }
   .header {
     flex-direction: column;
@@ -353,7 +353,8 @@ a {
 
   /* About section */
   .sec-about {
-    padding: 10px 30px;
+    width: 100%;
+    padding: 10px;
     grid-template-columns: 1fr;
   }
 
@@ -363,6 +364,9 @@ a {
   }
   .about-heading img {
     display: none;
+  }
+  .about-text p {
+    padding: 0 5px;
   }
   .fiver-btn {
     text-align: center;
