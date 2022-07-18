@@ -309,6 +309,9 @@ a {
     align-items: center;
     justify-content: center;
   }
+  .big-header {
+    font-size: 40px;
+  }
   .social-icon img {
     width: 24px;
     margin-right: 14px;
