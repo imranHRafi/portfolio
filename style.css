@@ -306,6 +306,10 @@ a {
     align-items: center;
     justify-content: center;
   }
+  .social-icon img {
+    width: 24rem;
+    margin-right: 14px;
+  }
   .header-img img {
     margin: 0;
     display: grid;
@@ -358,7 +362,12 @@ a {
 
   /* Project */
   .card {
+    padding: 0 10px;
     grid-template-columns: 1fr;
     margin: auto;
+  }
+  .card p {
+    display: grid;
+    place-items: center;
   }
 }
