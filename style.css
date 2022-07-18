@@ -148,10 +148,10 @@ body {
 .sec-about {
   max-width: 752px;
   /* height: 481px; */
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-
   margin: auto;
   padding: 30px 5px;
   background-color: #d9d9d9;
@@ -216,6 +216,7 @@ body {
 .card {
   max-height: 362px;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -353,7 +354,7 @@ a {
   /* About section */
   .sec-about {
     padding: 10px 30px;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .about-heading {
