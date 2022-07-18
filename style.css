@@ -177,7 +177,6 @@ body {
   font-size: 40px;
   line-height: 60px;
   margin-left: 16px;
-  text-decoration-line: underline;
 }
 
 .about-para {
@@ -356,7 +355,10 @@ a {
     width: 100%;
     padding: 10px;
     grid-template-columns: 1fr;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .about-heading {
@@ -377,7 +379,8 @@ a {
   .card {
     padding: 0 10px;
     grid-template-columns: 1fr;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
   }
   .card p {
     display: grid;
