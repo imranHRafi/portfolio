@@ -320,6 +320,7 @@ a {
 @media only screen and (max-width: 630px) {
   body {
     /* padding: 0 5%; */
+    overflow-y: hidden;
   }
   .sec-intro {
     height: 100%;
