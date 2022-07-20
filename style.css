@@ -24,7 +24,6 @@ main {
 /* Header Section */
 .sec-intro {
   min-height: 100vh;
-  position: relative;
 }
 .header {
   max-width: 631px;
@@ -322,11 +321,15 @@ a {
     height: 100vh;
     width: 100vh;
   }
+  .sec {
+    width: 100vh;
+  }
   /* .sec-intro {
     height: 100%;
     max-height: 100%;
   } */
   .header {
+    width: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -347,7 +350,7 @@ a {
     place-items: center;
   }
   .statistics {
-    max-width: 380px;
+    max-width: 60vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -363,7 +366,7 @@ a {
     margin: 0;
   } */
   .button-container {
-    max-width: 375px;
+    max-width: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -377,7 +380,8 @@ a {
 
   /* About section */
   .sec-about {
-    /* width: 100%; */
+    width: 100vh;
+
     /* padding: 10px; */
     grid-template-columns: 1fr;
     display: flex;
@@ -394,6 +398,7 @@ a {
     display: none;
   }
   .about-text p {
+    width: 80vh;
     padding: 0 5px;
   }
   .fiver-btn {
@@ -401,7 +406,9 @@ a {
   }
 
   /* Project */
+
   .card {
+    width: 100vh;
     padding: 0 10px;
     grid-template-columns: 1fr;
     justify-content: center;
