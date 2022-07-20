@@ -321,6 +321,9 @@ a {
   body {
     /* padding: 0 5%; */
   }
+  .sec-intro {
+    max-height: 100%;
+  }
   .header {
     flex-direction: column;
     align-items: center;

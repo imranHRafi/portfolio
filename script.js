@@ -21,7 +21,7 @@ gsap.fromTo(
     y: -10,
     repeat: -1,
   },
-  { duration: 1, y: 0, repeat: -1 }
+  { duration: 1, y: 0, repeat: -1, yoyo: true }
 );
 
 gsap.fromTo('.stat', { opacity: 0 }, { duration: 1, opacity: 1, delay: 0.2, stagger: 0.5 });
