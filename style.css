@@ -5,12 +5,14 @@
 }
 
 body {
-  max-width: 100%;
+  width: 100%;
   margin: auto;
   font-family: 'Fira Code', monospace;
   background-color: #e9ebec;
   color: #575757;
   overflow-x: hidden;
+}
+main {
 }
 
 .sec {
@@ -20,10 +22,14 @@ body {
 }
 
 /* Header Section */
-
+.sec-intro {
+  min-height: 100vh;
+  position: relative;
+}
 .header {
   max-width: 631px;
   margin-top: 180px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,6 +150,17 @@ body {
   margin-left: 40px;
 }
 
+.scroll-down {
+  margin-top: 6rem;
+  display: grid;
+
+  place-items: center;
+}
+.move-down {
+  width: 3rem;
+  margin-top: 1rem;
+}
+
 /* About */
 .sec-about {
   max-width: 752px;
@@ -261,7 +278,7 @@ body {
 
 .btn-ghost {
   padding: 1px 3px;
-  border: 0.5px solid #000;
+  border: 0.5px solid #19191b;
 
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -312,6 +329,9 @@ a {
   .big-header {
     font-size: 40px;
   }
+  .header-content h1 {
+    margin-top: 1rem;
+  }
   .social-icon img {
     width: 24px;
     margin-right: 14px;
@@ -352,8 +372,8 @@ a {
 
   /* About section */
   .sec-about {
-    width: 100%;
-    padding: 10px;
+    /* width: 100%; */
+    /* padding: 10px; */
     grid-template-columns: 1fr;
     display: flex;
     flex-wrap: wrap;

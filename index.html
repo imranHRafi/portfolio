@@ -8,138 +8,157 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
+<script src="script.js" defer></script>
+
     <title>Imran H Rafi portfolio</title>
   </head>
   <body>
     <main>
-      <section class="sec sec-intro">
-        <!-- Header Info -->
-        <div class="header">
-          <div class="header-img">
-            <img src="/img/profile.png" alt="Imran h Rafi picture" />
+      
+        <section  class="sec sec-intro">
+          <!-- Header Info -->
+          <div class="header">
+            <div class="header-img">
+              <img src="/img/profile.png" alt="Imran h Rafi picture" class="header-img"/>
+            </div>
+  
+            <div class="header-content">
+              <h1 class="big-header">Imran H Rafi</h1>
+              <h4 class="small-header">Front-end web developer</h4>
+              <div class="social-icon">
+                <img src="/img/github.png" alt="Imran H Rafi" class="social-icon" />
+                <img src="/img/twitter.png" alt="Imran H Rafi" class="social-icon" />
+                <img src="/img/linekedin.png" alt="Imran H Rafi" class="social-icon" />
+                <img src="/img/youtube.png" alt="Imran H Rafi" class="social-icon" />
+              </div>
+            </div>
+            </div>
+            <!-- Header finised -->
+  
+            <!-- statistics -->
+            <div class="statistics">
+              <div class="stat">
+                <span>2</span>
+                <h5>Years of work experience</h5>
+              </div>
+              <div class="stat">
+                <span>50+</span>
+                <h5>Completed Projects</h5>
+              </div>
+              <div class="stat">
+                <span> 20+</span>
+                <h5>Satisfied Customer</h5>
+              </div>
+            </div>
+            <!-- statistics finished -->
+            <!-- Header Button -->
+            <div class="button-container">
+              <button class="btn btn-cv">Download Cv &#8659</button>
+              <button class="btn btn-contact">Contact me</button>
+  
+            </div>
+          <div class="scroll-down">
+            <p>scroll Down</p>
+            <img src="/img/move.png" alt="imranhrafi scroll down" class="move-down">
           </div>
-
-          <div class="header-content">
-            <h1 class="big-header">Imran H Rafi</h1>
-            <h4 class="small-header">Front-end web developer</h4>
-            <div class="social-icon">
-              <img src="/img/github.png" alt="Imran H Rafi" class="social-icon" />
-              <img src="/img/twitter.png" alt="Imran H Rafi" class="social-icon" />
-              <img src="/img/linekedin.png" alt="Imran H Rafi" class="social-icon" />
-              <img src="/img/youtube.png" alt="Imran H Rafi" class="social-icon" />
-            </div>
+        </section>
+        <section  class="sec sec-about">
+          <div data-aos="zoom-out-right" class="about-heading">
+              <h1 class="big-heading">About Me</h1>
+              <img src="/img/circle.png" alt="Circle png">
           </div>
+          <div data-aos="zoom-out-left" class="about-text">
+              <p class="about-para"><span> My name is Rafi 👋</span> <br>
+  
+                  I'm currently start working on fiverr, as a front-end developer. 
+                  I consider myself a fast learner, proactive, self-sufficient, constantly learning, and hardworking. I've been creating and changing websites for about 2 years.
+                  <br>
+                  <span>Step by step. Pixel by pixel. :)</span>
+                  </p>   
+              <div data-aos="zoom-out-left" class="fiver-btn">
+                <button class="btn btn-fiverr">Reach my fiverr profile</button>
+              </div>
+                 
           </div>
-          <!-- Header finised -->
-
-          <!-- statistics -->
-          <div class="statistics">
-            <div class="stat">
-              <span>2</span>
-              <h5>Years of work experience</h5>
-            </div>
-            <div class="stat">
-              <span>50+</span>
-              <h5>Completed Projects</h5>
-            </div>
-            <div class="stat">
-              <span> 20+</span>
-              <h5>Satisfied Customer</h5>
-            </div>
+          
+        </section>
+        <section class="sec sec-project">
+          <h1 class="big-heading">/ Some Projects</h1>
+          <div class="card">
+              <div class="project-card">
+                  <img src="/img/Group 3.png" alt="Project Img" class="project-img">
+  
+                  <div class="project-info">
+                      <h2 class="small-heading">Investment analysis project</h2>
+                      <a href="" class="btn-ghost">Repo</a>
+                      <a href="" class="btn-ghost">Demo</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <img src="/img/Group 3.png" alt="Project Img" class="project-img">
+  
+                  <div class="project-info">
+                      <h2 class="small-heading">Investment analysis project</h2>
+                      <a href="" class="btn-ghost">Repo</a>
+                      <a href="" class="btn-ghost">Demo</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <img src="/img/Group 3.png" alt="Project Img" class="project-img">
+  
+                  <div class="project-info">
+                      <h2 class="small-heading">Investment analysis project</h2>
+                      <a href="" class="btn-ghost">Repo</a>
+                      <a href="" class="btn-ghost">Demo</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <img src="/img/Group 3.png" alt="Project Img" class="project-img">
+  
+                  <div class="project-info">
+                      <h2 class="small-heading">Investment analysis project</h2>
+                      <a href="" class="btn-ghost">Repo</a>
+                      <a href="" class="btn-ghost">Demo</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <img src="/img/Group 3.png" alt="Project Img" class="project-img">
+  
+                  <div class="project-info">
+                      <h2 class="small-heading">Investment analysis project</h2>
+                      <a href="" class="btn-ghost">Repo</a>
+                      <a href="" class="btn-ghost">Demo</a>
+                  </div>
+              </div>
+              <div class="project-card">
+                  <img src="/img/Group 3.png" alt="Project Img" class="project-img">
+  
+                  <div class="project-info">
+                      <h2 class="small-heading">Investment analysis project</h2>
+                      <a href="" class="btn-ghost">Repo</a>
+                      <a href="" class="btn-ghost">Demo</a>
+                  </div>
+              </div>
+              <p class="github-profile"> more --> in my Github profile</p>
           </div>
-          <!-- statistics finished -->
-          <!-- Header Button -->
-          <div class="button-container">
-            <button class="btn btn-cv">Download Cv &#8659</button>
-            <button class="btn btn-contact">Contact me</button>
+          
+          
+        </section>
+        <section class="sec sec-connect"></section>
+      
 
-          </div>
-        
-      </section>
-
-      <section class="sec sec-about">
-        <div class="about-heading">
-            <h1 class="big-heading">About Me</h1>
-            <img src="/img/circle.png" alt="Circle png">
-        </div>
-        <div class="about-text">
-            <p class="about-para"><span> My name is Rafi 👋</span> <br>
-
-                I'm currently start working on fiverr, as a front-end developer. 
-                I consider myself a fast learner, proactive, self-sufficient, constantly learning, and hardworking. I've been creating and changing websites for about 2 years.
-                <br>
-                <span>Step by step. Pixel by pixel. :)</span>
-                </p>   
-            <div class="fiver-btn">
-              <button class="btn btn-fiverr">Reach my fiverr profile</button>
-            </div>
-               
-        </div>
-        
-      </section>
-      <section class="sec sec-project">
-        <h1 class="big-heading">/ Some Projects</h1>
-        <div class="card">
-            <div class="project-card">
-                <img src="/img/Group 3.png" alt="Project Img" class="project-img">
-
-                <div class="project-info">
-                    <h2 class="small-heading">Investment analysis project</h2>
-                    <a href="" class="btn-ghost">Repo</a>
-                    <a href="" class="btn-ghost">Demo</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="/img/Group 3.png" alt="Project Img" class="project-img">
-
-                <div class="project-info">
-                    <h2 class="small-heading">Investment analysis project</h2>
-                    <a href="" class="btn-ghost">Repo</a>
-                    <a href="" class="btn-ghost">Demo</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="/img/Group 3.png" alt="Project Img" class="project-img">
-
-                <div class="project-info">
-                    <h2 class="small-heading">Investment analysis project</h2>
-                    <a href="" class="btn-ghost">Repo</a>
-                    <a href="" class="btn-ghost">Demo</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="/img/Group 3.png" alt="Project Img" class="project-img">
-
-                <div class="project-info">
-                    <h2 class="small-heading">Investment analysis project</h2>
-                    <a href="" class="btn-ghost">Repo</a>
-                    <a href="" class="btn-ghost">Demo</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="/img/Group 3.png" alt="Project Img" class="project-img">
-
-                <div class="project-info">
-                    <h2 class="small-heading">Investment analysis project</h2>
-                    <a href="" class="btn-ghost">Repo</a>
-                    <a href="" class="btn-ghost">Demo</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="/img/Group 3.png" alt="Project Img" class="project-img">
-
-                <div class="project-info">
-                    <h2 class="small-heading">Investment analysis project</h2>
-                    <a href="" class="btn-ghost">Repo</a>
-                    <a href="" class="btn-ghost">Demo</a>
-                </div>
-            </div>
-            <p class="github-profile"> more --> in my Github profile</p>
-        </div>
-        
-        
-      </section>
-      <section class="sec sec-connect"></section>
     </main>
+    
+				
   </body>
 </html>
