@@ -323,6 +323,7 @@ a {
   }
   .sec {
     width: 100vh;
+    margin: auto;
   }
   /* .sec-intro {
     height: 100%;
@@ -380,8 +381,7 @@ a {
 
   /* About section */
   .sec-about {
-    width: 100vh;
-
+    width: 80vh;
     /* padding: 10px; */
     grid-template-columns: 1fr;
     display: flex;
